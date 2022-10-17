@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Profile</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+
+        /* Color scheme
+        #17252A  gelap
+        #2B7A78  biru muda
+        #3AAFA9  biru 
+        #DEF2F1  putih abu
+        #FEFFFF  putih
+         */
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3AAFA9;
+        }
+
+        .navbar-nav{
+            margin-left: auto;
+            font-size: 18px;
+        }
+        
+        .navbar{
+            background-color: #DEF2F1;
+        }
+
+        /* Content */
+
+        h2 {
+            
+            color: #FEFFFF;
+            text-shadow: 2px 2px 2px #17252A;
+        
+        }
+
+        @media screen and (max-width: 766px){
+            .gambarnya{
+                width: 85%;
+            }
+        }
+
+
+        .profile1 {
+            background-color: #2B7A78;
+        }
+
+        .satu{
+            color: #DEF2F1;
+        }
+
+        .dua{
+            color: #17252A;
+        }
+
+        /* Footer */
+
+       
+        .promo h4{
+            color: #17252A;
+        }
+
+        .foot {
+            background-color: #DEF2F1;
+        }
+
+        .foot p{
+            font-size: 14px;
+        }
+        
+        
+
+    </style>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand px-3" href="index.html">
+                <img src="images/business.jpg" alt="" width="70" height="50" class="rounded-circle px-2">
+                PT-XYZ
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active" aria-current="page" href="profile.html">Profile</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="produk.html">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="formulir.html">Pemesanan</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="hubungi.html">Hubungi</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center konten">
+        <div class="row">
+            <div class="col-md-12 mt-4">
+                <h2>Tentang Kami</h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 gy-3 mt-4 px-3 profile1">
+            <div class="col-md-4 mb-3">
+                        <img src="images/toyotaProfile.jpg" alt="display 1" class="img-fluid gambarnya">
+            </div>
+            
+
+            <div class="col-md-8 ">
+                <p class="text-md pb-3 satu" style="text-align:justify;">PT. XYZ merupakan salah satu perusahaan yang bergerak dalam bidang penyedia kendaraan yang ada di Indonesia. Perusahaan ini memiliki kantor pusat yang berlokasi di Jakarta. Awal berdirinya perusahaan ini terjadi pada tahun 1980 yang merupakan importir serta penjual mobil bekas dengan merek Fiat, Holden dan Mecedes-Benz.</br></br>Pada tahun 1990, perusahaan ini ditunjuk sebagai Dealer resmi merek mobil Toyota, Daihatsu, BMW, Peugeot dan Renault untuk wilayah Jakarta dan sekitarnya. Tak hanya itu, perusahaan juga memiliki hak eksklusif untuk mendistribusikan sepeda motor dengan merek Honda dan mobi Toyota untuk wilayah Jabodetabek, Sumatera, Kalimantan dan Sulawesi.</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 gy-3 mt-5 px-3">
+            <div class="col-md-8">
+                <p class="text-md dua" style="text-align:justify;">Seiring dengan perkembangan perusahaan yang semakin meningkat, pada tahun 2000 didirikan sebuah induk perusahaan yang kemudian diberi nama PT XYZ. Tak membutuhkan waktu yang lama bagi perusahaan dalam upaya-nya untuk "go public". Terbukti pada tahun 2005 perusahaan ini melakukan penawaran umum perdana melalui proses akuisisi oleh Grup PQR Motors yang merupakan distributor kendaraan bermotor yang memiliki jaringan di </p>
+                    <ul class="text-start">
+                        <li>Amerika</li>
+                        <li>Asia</li>
+                        <li>Inggris</li>
+                        <li>Eropa</li>
+                    </ul>
+                </div>
+                
+            <div class="col-md-4 mb-3">
+                <img src="images/profile3.jpg" alt="display 1" class="img-fluid gambarnya">
+            </div>
+        </div>
+
+        <div class="row row-col-1 gy-3 mt-5 pb-5 px-3 profile1">
+            <div class="col-md-4 mb-3">
+                <img src="images/profile4.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-md-8">
+                <p class="text-md satu" style="text-align: justify">Dengan visi "menjadi kelompok agen otomotif terkemuka di Indonesia dengan pelayanan yang prima terhadap konsumen" membuat perusahaan ini mendapat banyak permintaan dari konsumen. Pada tahun 2010, PT. XYZ telah berhasil membukukan laba bersih tertinggi sepanjang sejarah dengan keuntungan penjualan 51% Mandiri.<br><br>Tak hanya itu pada tahun 2020, juga menargetkan dalam penjualan mobil hingga 30.000 unit dan sepeda motor sebanyak 165.000 unit dalam setahun. Hingga bulan Maret 2021 ini saja perusahaan telah mampu menjual 12.000 unit mobil dan 32.000 unit sepeda motor. Dengan rencana Pemerintah menaikkan harga bahan bakar minyak (BBM) tidak membuat perusahaan khawatir akan terjadi penurunan yang signifikan. Selain itu, PT XYZ juga menargetkan pengembangan portofolio jangka panjang sebesar 15.000 unit terjaring di tahun 2022 ini.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 foot">
+                <p class="text-md-center mt-3">&copy 2022 PT XYZ by Alan Sadewa</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
